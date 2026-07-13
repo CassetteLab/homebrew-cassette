@@ -6,7 +6,7 @@ a native macOS Subsonic music client.
 ## Install
 
 ```bash
-brew tap MathieuDubart/cassette
+brew tap cassettelab/cassette
 brew install --cask cassette
 ```
 
@@ -14,4 +14,20 @@ brew install --cask cassette
 
 ```bash
 brew upgrade --cask cassette
+```
+
+## Migration
+
+Si vous étiez installé·e depuis l'ancien tap `MathieuDubart/homebrew-cassette` :
+
+```bash
+brew untap mathieudubart/cassette
+brew tap cassettelab/cassette
+brew upgrade --cask cassette
+```
+
+Si Homebrew signale un conflit de cask déjà installé depuis l'ancien tap :
+
+```bash
+brew reinstall --cask cassette
 ```

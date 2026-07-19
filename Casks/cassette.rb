@@ -2,13 +2,13 @@ cask "cassette" do
   version "1.8.4"
   sha256 "f63e390479bde2e4d263250b045feb02db3fb5c118ffe6d0553f13967ec66c61"
 
-  url "https://github.com/MathieuDubart/cassette/releases/download/v#{version}/Cassette-#{version}.dmg",
-    verified: "github.com/MathieuDubart/cassette/"
+  url "https://github.com/CassetteLab/cassette/releases/download/v#{version}/Cassette-#{version}.dmg",
+    verified: "github.com/CassetteLab/cassette/"
   name "Cassette"
   desc "Subsonic music client"
   homepage "https://getcassette.app/"
 
-  depends_on macos: :sequoia
+  depends_on macos: ">= :sequoia"
 
   app "Cassette.app"
 

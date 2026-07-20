@@ -10,7 +10,7 @@ cask "cassette" do
 
   livecheck do
     url :url
-    regex(/^v?(\d+(?:\.\d+)+)$/i)
+    regex(/^v?(\d+(?:\.\d+)*)\+\d+$/i)
     strategy :github_latest
   end
 

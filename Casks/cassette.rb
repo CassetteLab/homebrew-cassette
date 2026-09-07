@@ -2,8 +2,7 @@ cask "cassette" do
   version "1.10.0"
   sha256 "e4b3ed1dc17226f6a8ff2a8623d1bcd416559026dbe8ea2866ad8402611ae3fe"
 
-  url "https://github.com/CassetteLab/cassette/releases/download/v#{version}/Cassette-#{version}.dmg",
-      verified: "github.com/CassetteLab/cassette/"
+  url "https://github.com/CassetteLab/cassette/releases/download/v#{version}/Cassette-#{version}.dmg"
   name "Cassette"
   desc "Subsonic music client"
   homepage "https://getcassette.app/"

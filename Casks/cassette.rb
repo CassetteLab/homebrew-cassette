@@ -1,6 +1,6 @@
 cask "cassette" do
-  version "1.11.1"
-  sha256 "8295b1c0269a2ae6c5d7a3eac581e7362b1dc530e1893ab14ca104b854af2509"
+  version "1.12.0"
+  sha256 "fb8e85c186b202a8a1761314b8b1a3c7d4e8b15807ab031b9363c82142f6e73c"
 
   url "https://github.com/CassetteLab/cassette/releases/download/v#{version}/Cassette-#{version}.dmg",
       verified: "github.com/CassetteLab/cassette/"
